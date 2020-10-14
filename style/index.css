@@ -1,0 +1,43 @@
+﻿.display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.jumbo{font-size:64px}
+.animate-top{position:relative;animation:animatetop 1.0s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.border-black,.hover-border-black:hover{border-color:#000}
+.large{font-size:18px}
+.center{text-align:center}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+    font-size: 20px;
+}
+.nav ul{
+    background: #000000;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li:hover{
+    background: #16a085;
+    
+}
+.nav ul li:hover a{
+    color: snow;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #bdc3c7;
+    text-decoration: none;
+}
